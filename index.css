@@ -46,6 +46,7 @@ body{
 .nav-links {
 	color: var(--primary-color_font);
 	font-size: 20px;
+	text-decoration: none;
 }
 
 .intro-top {
@@ -88,4 +89,64 @@ body{
 .work-sub_title {
 	font-size: 25px;
 	margin-top: 20px;
+}
+
+#skills {
+	margin-bottom: 200px;
+}
+
+.container-skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 25px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex: 0 0 auto;
+	padding: 0 0 30px;
+}
+
+.skillNumber {
+	color: var(--secundary-color_fontIntro);
+	font-size: 23px;
+	font-weight: 500;
+}
+
+.skillWork {
+	font-size: 23px;
+	font-weight: 500;
+}
+
+.skillDescription {
+	width: 30%;
+	color: var(--secundary-color_fontIntro);
+	font-size: 23px;
+	font-weight: 500;
+}
+
+.row hr{
+	border: none;
+	border-top: 1px solid var(--secundary-color_fontIntro);
+}
+
+#footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+}
+
+.footer-email {
+	font-size: 20px;
+}
+
+.footer-links {
+	width: 350px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
